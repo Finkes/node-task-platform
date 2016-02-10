@@ -19,7 +19,7 @@ module.exports = function (grunt) {
             expand: true,
             flatten: true,
             src: './src/client/static/*',
-            dest: './app/client/static'
+            dest: './app/client/'
           }
         ]
       }
