@@ -1,0 +1,27 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"preLaunchTask": "build",
+			"name": "Launch",
+			"type": "node",
+			"request": "launch",
+			"program": "./src/server/app.ts",
+			"stopOnEntry": false,
+			"args": [],
+			"cwd": ".",
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+			"sourceMaps": true,
+			"outDir": "app"
+		},
+		{
+			"name": "Attach",
+			"type": "node",
+			"request": "attach",
+			"port": 5858
+		}
+	]
+}
